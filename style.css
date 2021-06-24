@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: radial-gradient(ellipse at top, #e66465, transparent),
+              radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  height:100vh;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: left;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius:20px;
+}
+
+.link {
+  height: 30px;
+  width: 150px;
+  border: solid;
+  background-color: #e66465;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  float:right;
+  margin-right: 25px;
+}
+
+main {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  min-height: 65vh;
+  width: 60%;
+  border: solid;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+}
+
+.circle1, .circle2 {
+  border: solid;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.circle1 {
+  top: 10%;
+  right: 15%;
+  border-radius: 200px;
+}
+.circle2 {
+  bottom: 5%;
+  left: 12%;
+  border-radius: 200px;
+}
